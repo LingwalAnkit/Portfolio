@@ -392,18 +392,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 1.5rem; /* Adjusts the size of icons if they are text or SVG-based */
-  width: 50px; /* Set a larger width */
-  height: 50px; /* Set a larger height */
-  line-height: 50px; /* Aligns content vertically */
-  text-align: center; /* Centers content horizontally */
-  transition: transform 0.5s ease; /* Adds a smooth scaling effect on hover */
 }
-
-.social-icons:hover {
-  transform: scale(1.5); /* Grows the icon on hover */
-}
-
 
 .icon-colour {
   color: #700c86 !important;
@@ -419,7 +408,6 @@ button:focus {
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
-  padding-top: 15px !important;
   text-align: center !important;
 }
 
@@ -481,22 +469,24 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
-  border-radius: 25px !important; /* Adds rounded corners */
 }
-
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-  border-radius: 25px !important; /* Ensures roundness remains on hover */
 }
-
 
 
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
+}
+
+.blog-img {
+  padding: 0px !important;
+  opacity: 0.8 !important;
+  border-radius: 0px !important;
 }
 
 .btn-primary {
