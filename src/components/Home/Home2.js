@@ -27,13 +27,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interests are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">Blockchain.</b>
               </i>
               <br />
               <br />
@@ -48,7 +46,17 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i>.
+              <br />
+              <br />
+              Apart from programming, I have participated in multiple hackathons
+              such as SIH 2024, where my project <b className="purple">NavShiksha</b> was selected 
+              for the grand finale. I am also exploring the integration of <b className="purple">Web3 </b> 
+              with <b className="purple">Web2 </b> technologies to create decentralized user-centric applications. 
+              <br />
+              <br />
+              I am passionate about renewable energy solutions, automated insurance systems, 
+              and decentralized community spaces that bring real-world impact!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -101,4 +109,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

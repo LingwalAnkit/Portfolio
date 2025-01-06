@@ -5,10 +5,10 @@ import Particle from "../Particle";
 
 // Add your project image imports here
 import communitySolar from "../../Assets/Projects/blog.png";
-import navShiksha from "../../Assets/Projects/blog.png";
+import navShiksha from "../../Assets/Projects/Screenshot 2025-01-06 142543.png";
 import formFiller from "../../Assets/Projects/blog.png";
-import communityChat from "../../Assets/Projects/blog.png";
-import whiteboard from "../../Assets/Projects/blog.png";
+import communityChat from "../../Assets/Projects/Screenshot 2025-01-06 142811.png";
+import whiteboard from "../../Assets/Projects/Screenshot 2025-01-06 143048.png";
 
 function Projects() {
   return (
