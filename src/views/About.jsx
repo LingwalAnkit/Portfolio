@@ -30,14 +30,17 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              Hi! I’m Ankit Singh Lingwal, a passionate full-stack developer exploring the intersection of Web2 and Web3 technologies. With a knack for building user-centric applications, I specialize in creating solutions that merge innovative tech with real-world problems.
+              <br></br>
+              <br />
+              From developing Automated insurance platforms to renewable energy tracking systems and decentralized community spaces, I love tackling challenges with creativity and precision.
+
+              Currently, I'm diving deeper into blockchain and dApp development, aiming to bridge the gap between traditional systems and cutting-edge decentralized solutions.
+              <br />
+              <br />  
+              When I’m not coding, you’ll find me playing badminton, solving algorithms, or planning my next adventure.
+
+              Let’s connect and build something amazing together!
             </p>
           </motion.div>
           <motion.div
@@ -53,8 +56,8 @@ const About = () => {
               }
             >
               Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
+              open-source software I build user-focused, performant
+              websites.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

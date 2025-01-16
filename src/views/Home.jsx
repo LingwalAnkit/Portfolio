@@ -29,16 +29,16 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Ankit
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Front End Developer",
-                    1000,
                     "Full Stack Developer",
                     1000,
-                    "Mobile Developer",
+                    "Front End Developer",
+                    1000,
+                    "Solidity",
                     1000,
                   ]}
                   loop={Infinity}
@@ -52,8 +52,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              I am a Full-Stack Developer currently expanding my expertise by diving into Blockchain technology.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -62,7 +61,6 @@ const Home = () => {
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
                   <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </div>
