@@ -35,11 +35,13 @@ const Home = () => {
                 <Typical
                   steps={[
                     "Full Stack Developer",
-                    1000,
+                    2000,
                     "Front End Developer",
-                    1000,
+                    2000,
+                    "Back End Developer",
+                    2000,
                     "Solidity",
-                    1000,
+                    2000,
                   ]}
                   loop={Infinity}
                 />
