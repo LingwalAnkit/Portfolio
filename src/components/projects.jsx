@@ -17,48 +17,48 @@ const Projects = () => {
       description: "A platform for improving rural education with personalized learning and community-driven solutions.",
       image: require("../assets/project/NavShiksha.png"),
       tags: ["Next", "Node.js", "Prisma", "MongoDB", "Redux"],
-      demoLink: "https://navshiksha-demo.com",
-      githubLink: "https://github.com/username/navshiksha"
+      demoLink: "https://sih-nav-shiksha.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/SIH-NavShiksha"
     },
     {
       title: "Chat App",
       description: "A real-time messaging app built with React and WebSocket for seamless communication.",
       image: require("../assets/project/Chat.png"),
       tags: ["Next", "WebSocket", "Node.js", "Pusher"],
-      demoLink: "https://chat-app-demo.com",
-      githubLink: "https://github.com/username/chat-app"
+      demoLink: "https://nav-shiksha-chat-isox.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/NavShiksha-Chat"
     },
     {
-      title: "Solar Energy Share Sharing Platform",
+      title: "Sun-Vest",
       description: "A platform to invest in and track shared solar energy projects, enabling individuals to contribute to renewable energy.",
       image: require("../assets/project/Scatch.png"),
       tags: ["React", "Web3.Js", "Node.js", "MongoDB"],
-      demoLink: "https://solar-energy-demo.com",
-      githubLink: "https://github.com/username/solar-energy"
+      demoLink: "#",
+      githubLink: "https://github.com/LingwalAnkit/Sun-Vest"
     },
     {
       title: "Decentralized App (dApp)",
       description: "A decentralized application built using Web3 technology for secure and transparent transactions.",
       image: require("../assets/project/Scatch.png"),
       tags: ["React", "Solidity", "Web3"],
-      demoLink: "https://dapp-demo.com",
-      githubLink: "https://github.com/username/dapp"
+      demoLink: "#",
+      githubLink: "https://github.com/LingwalAnkit/DApp"
     },
     {
       title: "PolicyBots",
       description: "An automated insurance solution with AI-powered form-filling and document management.",
       image: require("../assets/project/Scatch.png"),
       tags: ["React", "Python", "AI"],
-      demoLink: "https://policybots-demo.com",
-      githubLink: "https://github.com/username/policybots"
+      demoLink: "#",
+      githubLink: "https://github.com/LingwalAnkit/Policy_Bots"
     },
     {
       title: "Alumni Association Page",
       description: "A platform for alumni to connect, share updates, and participate in events. (Currently under development)",
       image: require("../assets/project/Scatch.png"),
       tags: ["React", "Node.js", "MongoDB"],
-      demoLink: "https://alumni-association-demo.com",
-      githubLink: "https://github.com/username/alumni-association"
+      demoLink: "#",
+      githubLink: "#"
     }
   ];
 
