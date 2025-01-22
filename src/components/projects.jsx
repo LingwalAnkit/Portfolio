@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: "Sun-Vest",
       description: "A platform to invest in and track shared solar energy projects, enabling individuals to contribute to renewable energy.",
-      image: require("../assets/project/Scatch.png"),
+      image: require("../assets/project/SunVest.png"),
       tags: ["React", "Web3.Js", "Node.js", "MongoDB"],
       demoLink: "#",
       githubLink: "https://github.com/LingwalAnkit/Sun-Vest"
@@ -39,7 +39,7 @@ const Projects = () => {
     {
       title: "Decentralized App (dApp)",
       description: "A decentralized application built using Web3 technology for secure and transparent transactions.",
-      image: require("../assets/project/Scatch.png"),
+      image: require("../assets/project/Dapp.png"),
       tags: ["React", "Solidity", "Web3"],
       demoLink: "#",
       githubLink: "https://github.com/LingwalAnkit/DApp"
@@ -47,19 +47,19 @@ const Projects = () => {
     {
       title: "PolicyBots",
       description: "An automated insurance solution with AI-powered form-filling and document management.",
-      image: require("../assets/project/Scatch.png"),
+      image: require("../assets/project/PolicyBots.png"),
       tags: ["React", "Python", "AI"],
       demoLink: "#",
       githubLink: "https://github.com/LingwalAnkit/Policy_Bots"
     },
     {
-      title: "Alumni Association Page",
-      description: "A platform for alumni to connect, share updates, and participate in events. (Currently under development)",
-      image: require("../assets/project/Scatch.png"),
+      title: "Whiteboard - Interactive Teacher Side",
+      description: "A tool for teachers to interact with students in real time using a virtual whiteboard.",
+      image: require("../assets/project/WhiteBoard.png"),
       tags: ["React", "Node.js", "MongoDB"],
-      demoLink: "#",
-      githubLink: "#"
-    }
+      demoLink: "https://sih-whiteboard-frontend.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/SIH_whiteboard"
+    }    
   ];
 
   return (
