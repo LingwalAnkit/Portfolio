@@ -49,7 +49,7 @@ const Projects = () => {
       description: "An automated insurance solution with AI-powered form-filling and document management.",
       image: require("../assets/project/PolicyBots.png"),
       tags: ["React", "Python", "AI"],
-      demoLink: "#",
+      demoLink: "https://policy-bots-lttd.vercel.app/",
       githubLink: "https://github.com/LingwalAnkit/Policy_Bots"
     },
     {
