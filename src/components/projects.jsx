@@ -21,6 +21,22 @@ const Projects = () => {
       githubLink: "https://github.com/LingwalAnkit/SIH-NavShiksha"
     },
     {
+      title: "Solana Token Launchpad",
+      description: "A Solana-based token launchpad utilizing Solana libraries to create and deploy tokens seamlessly.",
+      image: require("../assets/project/TokenLaunchpad.png"),
+      tags: ["Solana", "React", "Web3"],
+      demoLink: "https://token-launchpad-mocha.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/Token-Launchpad"
+    },
+    {
+      title: "Solana Web3 App",
+      description: "A Web3 app that allows users to airdrop SOL, send SOL, and transfer Solana tokens effortlessly.",
+      image: require("../assets/project/Solana web3.png"),
+      tags: ["Solana", "Web3.js", "React"],
+      demoLink: "https://d-app-pied.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/DApp"
+    },    
+    {
       title: "Chat App",
       description: "A real-time messaging app built with React and WebSocket for seamless communication.",
       image: require("../assets/project/Chat.png"),
@@ -59,7 +75,7 @@ const Projects = () => {
       tags: ["React", "Node.js", "MongoDB"],
       demoLink: "https://sih-whiteboard-frontend.vercel.app/",
       githubLink: "https://github.com/LingwalAnkit/SIH_whiteboard"
-    }    
+    },   
   ];
 
   return (
