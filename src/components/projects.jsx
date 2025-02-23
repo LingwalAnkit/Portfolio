@@ -1,101 +1,111 @@
-import React from 'react';
+import React from "react";
 
 const Projects = () => {
   const projects = [
     {
-        title: "Scatch",
-        description:
-          "A full-stack Shoes selling E-Com platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
-        image: require("../assets/project/Scatch.png"), // or import it above
-        tags: ["React", "Node.js", "MongoDB", "Stripe"],
-        demoLink: "#",
-        githubLink: "https://github.com/username/ecommerce",
-      },
-      
-    {
       title: "NavShiksha",
-      description: "A platform for improving rural education with personalized learning and community-driven solutions.",
+      description:
+        "A platform for improving rural education with personalized learning and community-driven solutions.",
       image: require("../assets/project/NavShiksha.png"),
       tags: ["Next", "Node.js", "Prisma", "MongoDB", "Redux"],
       demoLink: "https://sih-nav-shiksha.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/SIH-NavShiksha"
+      githubLink: "https://github.com/LingwalAnkit/SIH-NavShiksha",
+    },
+    {
+      title: "Scatch",
+      description:
+        "A full-stack Shoes selling E-Com platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
+      image: require("../assets/project/Scatch.png"), // or import it above
+      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoLink: "#",
+      githubLink: "https://github.com/LingwalAnkit/Ecom-app",
     },
     {
       title: "Solana Token Launchpad",
-      description: "A Solana-based token launchpad utilizing Solana libraries to create and deploy tokens seamlessly.",
+      description:
+        "A Solana-based token launchpad utilizing Solana libraries to create and deploy tokens seamlessly.",
       image: require("../assets/project/TokenLaunchpad.png"),
       tags: ["Solana", "React", "Web3"],
       demoLink: "https://token-launchpad-mocha.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/Token-Launchpad"
+      githubLink: "https://github.com/LingwalAnkit/Token-Launchpad",
     },
     {
       title: "Solana Web3 App",
-      description: "A Web3 app that allows users to airdrop SOL, send SOL, and transfer Solana tokens effortlessly.",
+      description:
+        "A Web3 app that allows users to airdrop SOL, send SOL, and transfer Solana tokens effortlessly.",
       image: require("../assets/project/Solana web3.png"),
       tags: ["Solana", "Web3.js", "React"],
       demoLink: "https://d-app-pied.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/DApp"
-    },    
+      githubLink: "https://github.com/LingwalAnkit/DApp",
+    },
     {
       title: "Chat App",
-      description: "A real-time messaging app built with React and WebSocket for seamless communication.",
+      description:
+        "A real-time messaging app built with React and WebSocket for seamless communication.",
       image: require("../assets/project/Chat.png"),
       tags: ["Next", "WebSocket", "Node.js", "Pusher"],
       demoLink: "https://nav-shiksha-chat-isox.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/NavShiksha-Chat"
+      githubLink: "https://github.com/LingwalAnkit/NavShiksha-Chat",
     },
     {
       title: "Sun-Vest",
-      description: "A platform to invest in and track shared solar energy projects, enabling individuals to contribute to renewable energy.",
+      description:
+        "A platform to invest in and track shared solar energy projects, enabling individuals to contribute to renewable energy.",
       image: require("../assets/project/SunVest.png"),
       tags: ["React", "Web3.Js", "Node.js", "MongoDB"],
       demoLink: "#",
-      githubLink: "https://github.com/LingwalAnkit/Sun-Vest"
+      githubLink: "https://github.com/LingwalAnkit/Sun-Vest",
     },
     {
       title: "Decentralized App (dApp)",
-      description: "A decentralized application built using Web3 technology for secure and transparent transactions.",
+      description:
+        "A decentralized application built using Web3 technology for secure and transparent transactions.",
       image: require("../assets/project/Dapp.png"),
       tags: ["React", "Solidity", "Web3"],
       demoLink: "#",
-      githubLink: "https://github.com/LingwalAnkit/DApp"
+      githubLink: "https://github.com/LingwalAnkit/DApp",
     },
     {
       title: "PolicyBots",
-      description: "An automated insurance solution with AI-powered form-filling and document management.",
+      description:
+        "An automated insurance solution with AI-powered form-filling and document management.",
       image: require("../assets/project/PolicyBots.png"),
       tags: ["React", "Python", "AI"],
       demoLink: "https://policy-bots-lttd.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/Policy_Bots"
+      githubLink: "https://github.com/LingwalAnkit/Policy_Bots",
     },
     {
       title: "Whiteboard - Interactive Teacher Side",
-      description: "A tool for teachers to interact with students in real time using a virtual whiteboard.",
+      description:
+        "A tool for teachers to interact with students in real time using a virtual whiteboard.",
       image: require("../assets/project/WhiteBoard.png"),
       tags: ["React", "Node.js", "MongoDB"],
       demoLink: "https://sih-whiteboard-frontend.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/SIH_whiteboard"
-    },   
+      githubLink: "https://github.com/LingwalAnkit/SIH_whiteboard",
+    },
   ];
 
   return (
     <div className="w-full max-w-7xl mx-auto p-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div
+            key={index}
+            className="bg-white rounded-lg shadow-lg overflow-hidden"
+          >
             <div className="flex flex-col">
               <div className="p-4 w-full">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-48 object-cover"
                 />
               </div>
-              
+
               <div className="w-full md:w-2/3 p-6">
                 <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, tagIndex) => (
                     <span
@@ -106,7 +116,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex flex-col md:flex-row gap-4">
                   <a
                     href={project.demoLink}
