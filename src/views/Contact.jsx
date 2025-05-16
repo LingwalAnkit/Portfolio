@@ -100,13 +100,6 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-            {/* <h1 className="text-3xl font-bold">Phone</h1>
-            <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
-            >
-              +91 8285631499
-            </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
             <a
               href="hello"
@@ -131,7 +124,6 @@ const Contact = () => {
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </ul>

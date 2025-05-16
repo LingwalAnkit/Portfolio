@@ -36,11 +36,9 @@ const Home = () => {
                   steps={[
                     "Full Stack Developer",
                     2000,
-                    "Front End Developer",
+                    "Figma plugin Developer",
                     2000,
-                    "Back End Developer",
-                    2000,
-                    "Solidity",
+                    "Ethereum Smart Contract Developer",
                     2000,
                   ]}
                   loop={Infinity}

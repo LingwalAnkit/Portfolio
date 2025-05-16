@@ -12,13 +12,13 @@ const Projects = () => {
       githubLink: "https://github.com/LingwalAnkit/SIH-NavShiksha",
     },
     {
-      title: "Scatch",
+      title: "Whiteboard - Interactive Teacher Side",
       description:
-        "A full-stack Shoes selling E-Com platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
-      image: require("../assets/project/Scatch.png"), // or import it above
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoLink: "#",
-      githubLink: "https://github.com/LingwalAnkit/Ecom-app",
+        "A tool for teachers to interact with students in real time using a virtual whiteboard.",
+      image: require("../assets/project/WhiteBoard.png"),
+      tags: ["React", "Node.js", "MongoDB"],
+      demoLink: "https://wbfe.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/Whiteboard",
     },
     {
       title: "Solana Token Launchpad",
@@ -30,15 +30,6 @@ const Projects = () => {
       githubLink: "https://github.com/LingwalAnkit/Token-Launchpad",
     },
     {
-      title: "Solana Web3 App",
-      description:
-        "A Web3 app that allows users to airdrop SOL, send SOL, and transfer Solana tokens effortlessly.",
-      image: require("../assets/project/Solana web3.png"),
-      tags: ["Solana", "Web3.js", "React"],
-      demoLink: "https://d-app-pied.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/DApp",
-    },
-    {
       title: "Chat App",
       description:
         "A real-time messaging app built with React and WebSocket for seamless communication.",
@@ -46,6 +37,15 @@ const Projects = () => {
       tags: ["Next", "WebSocket", "Node.js", "Pusher"],
       demoLink: "https://nav-shiksha-chat-isox.vercel.app/",
       githubLink: "https://github.com/LingwalAnkit/NavShiksha-Chat",
+    },
+    {
+      title: "Solana Web3 App",
+      description:
+        "A Web3 app that allows users to airdrop SOL, send SOL, and transfer Solana tokens effortlessly.",
+      image: require("../assets/project/Solana web3.png"),
+      tags: ["Solana", "Web3.js", "React"],
+      demoLink: "https://d-app-pied.vercel.app/",
+      githubLink: "https://github.com/LingwalAnkit/DApp",
     },
     {
       title: "Sun-Vest",
@@ -75,13 +75,13 @@ const Projects = () => {
       githubLink: "https://github.com/LingwalAnkit/Policy_Bots",
     },
     {
-      title: "Whiteboard - Interactive Teacher Side",
+      title: "Scatch",
       description:
-        "A tool for teachers to interact with students in real time using a virtual whiteboard.",
-      image: require("../assets/project/WhiteBoard.png"),
-      tags: ["React", "Node.js", "MongoDB"],
-      demoLink: "https://sih-whiteboard-frontend.vercel.app/",
-      githubLink: "https://github.com/LingwalAnkit/SIH_whiteboard",
+        "A full-stack Shoes selling E-Com platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
+      image: require("../assets/project/Scatch.png"), // or import it above
+      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoLink: "#",
+      githubLink: "https://github.com/LingwalAnkit/Ecom-app",
     },
   ];
 
