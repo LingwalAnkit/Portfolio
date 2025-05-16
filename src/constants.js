@@ -31,7 +31,7 @@ export const techStack =[
   export const contactLinks = [{ name: 'Stack Overflow', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/29227969/ankit-lingwal' },
     { name: 'Twitter', url: 'https://img.icons8.com/doodle/40/000000/twitter.png', link: 'https://x.com/Lambda_f1' },
   { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/LingwalAnkit/'},
-  { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/ankit-lingwal-9b18472aa/'}
+  { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/ankit-singh-lingwal-9b18472aa/'}
   ]
   
   
